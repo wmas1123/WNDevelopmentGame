@@ -30,9 +30,6 @@ public class Character {
     //Checks if an action was done with the item equipped
     abstract public boolean actionDone;
 
-    //When the coordinates reach a certain point then change the screen wraparound.
-    abstract public boolean transitionScreen;
-
     //Detects collision between objects
     abstract public boolean detectCollision;
 
